@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -244,6 +244,7 @@
     <ClInclude Include="ml_CvBoostTree.h" />
     <ClInclude Include="features2d_DescriptorMatcher.h" />
     <ClInclude Include="features2d_FeatureDetector.h" />
+    <ClInclude Include="features2d_BagOfWords.h" />
     <ClInclude Include="core_FileStorage.h" />
     <ClInclude Include="highgui.h" />
     <ClInclude Include="imgproc.h" />

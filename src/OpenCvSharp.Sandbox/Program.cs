@@ -19,8 +19,15 @@ namespace OpenCvSharp.Sandbox
     {
         private static void Main(string[] args)
         {
-            Foo();
+            Bar();
+            //Foo();
             //Run();
+        }
+
+        private static void Bar()
+        {
+            var bowkMeansTrainer =
+                new BOWKMeansTrainer(5, new TermCriteria(), attempts: 5, flags: KMeansFlag.PpCenters);
         }
 
         private static void Foo()
